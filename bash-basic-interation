@@ -1,0 +1,5 @@
+#!/bin/bash
+for no in {1..50}; do
+	mkdir -p folder$no
+	printf "Halo saya adalah file ke $no\nSaya dibuat pada: $(date)\n" > "folder$no/$no.txt"
+done
